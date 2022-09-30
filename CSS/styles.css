@@ -149,6 +149,7 @@ ol {
 
 .h1_section {
    background: #2F303A;
+
     height: 600px;
         display: flex;
         flex-direction: column;
@@ -156,10 +157,17 @@ ol {
         /* width: 1600px ; */
         justify-content: center;
         align-items: center;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+        background-image: linear-gradient(to bottom, #2f303a66 0%, #2f303a66 100%),
+                url("../images/backgrond.jpg")
+    
+ }
         
         
         
-}
+
 .h1 {
     
         width: 696px;
@@ -224,6 +232,18 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .list_item {
     display: inline-block;
 }
+
+/* .background {
+    background-image: linear-gradient(to bottom, #2f303a66 0%, #2f303a66 100%),
+            url("../images/backgrond.jpg")
+         
+         
+       background-size: auto auto;
+                background-position: center;
+                background-repeat: no-repeat;
+} */
+
+
 .list_item_h4 {
     
     font-style: normal;
@@ -308,7 +328,29 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         justify-content: center;
         padding-bottom: 94px;
 }
+.socialmedia {
 
+    display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        grid-gap: 10px;
+        padding-bottom: 30px;
+        list-style: none;
+}
+
+.socialmedia a {
+    display: flex;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        fill: #afb1b8;
+}
+
+.socialmedia a :hover,
+.socialmedia a :focus {
+background-color: #2196f3;
+fill:#FFFFFF;
+}
 .heading_team {
 font-style: normal;
     font-weight: 700;
@@ -324,7 +366,7 @@ font-style: normal;
     padding-top:94px ;
 }
 .team_list_item {
-    height: 368px;
+    height: 428px;
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
