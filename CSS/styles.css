@@ -338,7 +338,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         list-style: none;
 }
 
-.socialmedia a {
+.socialmedia_li  {
     display: flex;
         width: 44px;
         height: 44px;
@@ -346,10 +346,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         fill: #afb1b8;
 }
 
-.socialmedia a :hover,
-.socialmedia a :focus {
+.socialmedia_li :hover,
+.socialmedia_li :focus {
+    fill:#FFFFFF;
 background-color: #2196f3;
-fill:#FFFFFF;
+border-radius: 50%;
 }
 .heading_team {
 font-style: normal;
