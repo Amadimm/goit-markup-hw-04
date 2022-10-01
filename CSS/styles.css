@@ -619,6 +619,11 @@ border-color: #2196F3;
         
 }
 
+
+.footer_contacts {
+    display: inline-block;
+}
+
 .h3_footer {
     margin: 0;
 }
@@ -679,21 +684,29 @@ border-color: #2196F3;
 }
 
 .footer_2 {
-    margin-left: 70px;
-        display: block;
+    padding-left: 70px;
+    /* margin-bottom: 70px; */
+        display: inline-block;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: #ffffff;
+       
 }
 
 .footer_2_socialmedia {
     display: flex;
         gap: 10px;
         list-style: none;
-        margin-top: 20px;
+        /* margin-top: 20px; */
 }
 
+
+
+.social_svg {
+    fill: white;
+}
 
 /* =======END FOOTER====== */
