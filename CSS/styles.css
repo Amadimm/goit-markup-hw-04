@@ -174,6 +174,14 @@ ol {
     padding: 0
 }
 
+.background {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    
+        margin-right: auto;
+        margin-left: auto;
+}
 
 .h1_section {
    background: #2F303A;
@@ -182,15 +190,17 @@ ol {
         display: flex;
         flex-direction: column;
         /* padding-top: 200px; */
-        /* width: 1600px ; */
+        width: 1600px ;
         justify-content: center;
         align-items: center;
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
+background-size:auto auto ;
+/* max-width: 1600px; */
         background-image: linear-gradient(to bottom, #2f303a66 0%, #2f303a66 100%),
-                url("../images/backgrond.jpg")
-    
+                url("../images/backgrond.jpg");
+                /* margin-right: 0;
+    margin-left:0; */
  }
         
         
