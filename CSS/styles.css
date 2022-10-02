@@ -107,8 +107,18 @@ display: flex;
 .nav_list_link:hover,
 .nav_list_link:focus,
 .contacts_link:hover,
-.contacts_link:focus {
-    color: var(--main-color)
+.contacts_link:focus,
+.header_icon:hover,
+.header_icon:focus
+ {
+    color: var(--main-color);
+    fill:var(--main-color);
+}
+
+.contacts_item:hover,
+.contacts_item:focus {
+    fill: var(--main-color);
+    color: var(--main-color);
 }
 
 
@@ -126,7 +136,8 @@ display: flex;
        
 }
 .contacts_link {
-
+    display: flex;
+align-items: center;
   
         font-style: normal;
         font-weight: 500;
@@ -144,9 +155,12 @@ display: flex;
 }
 
 .header_icon {
-    justify-content: center;
+    /* display:flex ; */
+    /* justify-content: center; */
     align-items: center;
 margin-right: 10px;
+fill: #757575;
+
 
 }
 
@@ -357,7 +371,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         width: 44px;
         height: 44px;
         border-radius: 50%;
-        fill: #ffffff;
+        fill: #AFB1B8;
 }
 
 .socialmedia_li :hover,
@@ -615,24 +629,29 @@ border-color: #2196F3;
     color: #FFFFFF;
     /* padding: 60px 1240px 20px 215px; */
     margin: 0;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    /* padding-top: 60px; */
+   margin-bottom: 20px;
 }
 
 .footer {
     display: column;
     justify-content: center;
     background: #2F303A;
-   
+   padding-top: 60px;
+   padding-bottom: 60px;
         width: 1600px;
-        height: 252px;
-        top: 1628px;
-        left: 0px;
+        /* height: 252px; */
+        /* top: 1628px;
+        left: 0px; */
         /* top: 2097px; */
         width: 100%;
         
 }
 
+.footer__secondary {
+    display: flex;
+    align-items: baseline;
+}
 
 .footer_contacts {
     display: inline-block;
@@ -714,6 +733,7 @@ border-color: #2196F3;
     display: flex;
         gap: 10px;
         list-style: none;
+        padding-top: 20px;
         /* margin-top: 20px; */
 }
 
@@ -723,4 +743,15 @@ border-color: #2196F3;
     fill: white;
 }
 
+/* .socialmedia_li_2 {
+    width: 44px;
+    height: 44px;
+} */
+
+.socialmedia_li_2 :hover,
+.socialmedia_li_2:focus {
+    background-color:#2196f3 ;
+    
+    border-radius: 50%;
+}
 /* =======END FOOTER====== */
