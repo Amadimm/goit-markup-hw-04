@@ -115,11 +115,17 @@ display: flex;
     fill:var(--main-color);
 }
 
-.contacts_item:hover,
+
+.contacts_link:focus svg,
+.contacts_link:hover svg {
+    fill: var(--main-color);
+}
+
+/* .contacts_item:hover,
 .contacts_item:focus {
     fill: var(--main-color);
     color: var(--main-color);
-}
+} */
 
 
 .contacts_list {
