@@ -391,7 +391,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .socialmedia_li :hover,
-.socialmedia_li :focus {
+.socialmedia_li:focus {
     fill:#FFFFFF;
 background-color: #2196f3;
 border-radius: 50%;
@@ -759,15 +759,18 @@ border-color: #2196F3;
     fill: white;
 }
 
-/* .socialmedia_li_2 {
-    width: 44px;
-    height: 44px;
-} */
+.socialmedia_li_2 {
+    display: flex;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+}
 
 .socialmedia_li_2 :hover,
 .socialmedia_li_2:focus {
     background-color:#2196f3 ;
-    
+    fill: #ffffff;
     border-radius: 50%;
 }
+
 /* =======END FOOTER====== */
